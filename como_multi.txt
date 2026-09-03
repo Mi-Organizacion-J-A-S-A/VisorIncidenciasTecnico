@@ -1,0 +1,15 @@
+Cuando compilas con flutter build apk Flutter incluye únicamente el código Android. Cuando compilas con flutter build linux incluye únicamente el código Linux. No hay conflicto.
+
+￼
+￼
+￼
+￼
+
+flutter build linux
+build/linux/x64/release/bundle/visorincidencias
+flutter build apk
+build/app/outputs/flutter-apk/app-release.apk
+flutter build apk --release
+flutter build appbundle --release
+Para Windows:  flutter build windows --release
+flutter build linux --release

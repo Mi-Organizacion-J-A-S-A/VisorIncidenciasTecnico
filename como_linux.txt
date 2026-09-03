@@ -1,0 +1,14 @@
+flutter config --enable-linux-desktop
+flutter doctor
+2. Instalar dependencias del sistema:
+bashsudo apt-get install cmake ninja-build libgtk-3-dev pkg-config
+3. Comprobar que Linux aparece como dispositivo:
+bashflutter devices
+Debes ver algo como Linux (desktop).
+4. Ejecutar:
+bashflutter run -d linux
+5. Compilar para distribución:
+bashflutter build linux --release
+El binario estará en:
+build/linux/x64/release/bundle/
+
